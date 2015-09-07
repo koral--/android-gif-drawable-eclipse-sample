@@ -1,7 +1,7 @@
 # android-gif-drawable-eclipse-sample
 Sample Eclipse project using android-gif-drawable library made with help of user [nuoyan2](https://github.com/nuoyan2).
 It shows where to place files taken from AAR and source files inside Eclipse project structure. Latest archives can be downloaded here: [latest release](https://github.com/koral--/android-gif-drawable/releases/latest).
-Usage:
+### Steps to include library in Eclipse project:
 * copy `pl` folder from sources jar inside `src` folder of the Eclipse project
 * copy all contents of `jni` folder from AAR into `libs` folder of the project
 * copy `proguard.txt` from AAR into root folder of the project and rename it to `proguard-project.txt` (required only if proguard will be used)
